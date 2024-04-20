@@ -67,7 +67,7 @@ export default function App() {
   useEffect(() => {
     const node = nodes.find((node) => node.selected);
     setIsSelected(!!node);
-    setSelectedNode(node?.id || null);
+    setSelectedNode(node || null);
   }, [nodes]);
 
   useEffect(() => {
