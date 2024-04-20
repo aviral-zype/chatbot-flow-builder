@@ -1,0 +1,71 @@
+.nodes-panel-wrapper{
+    padding: 10px; 
+    border-right: 1px solid #ccc; 
+    width: 20vw;
+    height: 95vh;
+    overflow-y: auto;
+    background: #fff;
+    padding-top: 50px;
+    border-left: 1px solid grey;
+}
+.top-panel{
+    background-color: #eee;
+    height: 5vh;
+    width: 100%;
+    z-index: 6;
+    position: relative;
+    padding: 1vh 0;
+    display: flex;
+}
+
+.top-panel button{
+    position: relative;
+    top: -7.5px;
+    background: #fff;
+    padding: 10px 2%;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 50px;
+    color: blue;
+    border: 1px solid blue;
+}
+.draggable_input_node{
+    border: 1px solid rgb(43, 43, 211);
+    width: 50%;
+    padding: 5px;
+    color: rgb(43, 43, 211);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.draggable_input_node img{
+    width: 20px;
+}
+p{
+    margin: 0;
+}
+.draggable_input_node p{
+    padding: 2px;
+    font-weight: 100;
+    font-size: 12px;
+}
+.back_btn img{
+    width: 10px;
+}
+.edit_node_header{
+    display: flex;
+    flex-direction: row;
+}
+.edit_node_header p{
+    padding-left: 25%;
+    font-size: 12px;
+    padding-top: 2px;
+}
+.error-div{
+    background: rgba(176, 54, 54, 0.636);
+    padding: 4px 8px;
+    border-radius: 5px;
+}

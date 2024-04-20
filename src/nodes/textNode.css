@@ -1,0 +1,42 @@
+.react-flow__node-default{
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: unset;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;   
+    border-radius: 4px;
+}
+.react-flow__node.selected .react-flow__node-default, .react-flow__node.selected:focus .react-flow__node-default{
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.text-node{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 8px;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.text-node .heading-wrapper{
+    background: #17eee1;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 0 10px;
+
+}
+.text-node .message-wrapper{
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.text-node .heading-wrapper span{
+    padding: 0 5px;
+}
+.heading-wrapper img{
+    object-fit: scale-down;
+    width: 7px;
+}
