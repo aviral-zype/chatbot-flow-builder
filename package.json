@@ -1,6 +1,7 @@
 {
   "name": "chat-bot-builder",
   "private": true,
+  "homepage": "https://chatbot-flow-builder-chi.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
